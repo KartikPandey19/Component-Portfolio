@@ -28,10 +28,10 @@
     <h2>@container</h2>
 
     <h3>fluid container</h3>
-    <div class="container">this is a fluid container and go till end of the page</div>
+    <div class="container ">this is a fluid container and go till end of the page</div>
 
     <h3>center container</h3>
-    <div class="container container-fluid">this is a center container and gottill specific width</div>
+    <div class="container container-center">this is a center container and gottill specific width</div>
     <hr>
 
     <h2>@links</h2>
@@ -70,10 +70,10 @@
 
     <h2>@navbar</h2>
     <nav class="navigation container">
-    <div class="nav-devloper"> I AM A DEVLOPER</div>
+        <div class="nav-devloper"> I AM A DEVLOPER</div>
         <ul class="list-nonBullet-list nav-pills">
             <li class="list-inline-list">
-                <a class="link" href="Home">Home</a>
+                <a class="link link-active" href="Home">Home</a>
             </li>
             <li class="list-inline-list">
                 <a class="link" href="Projects">Projects</a>
@@ -83,38 +83,45 @@
             </li>
         </ul>
     </nav>
-        <hr>
+    <hr>
 
-        <h2>@header</h2>
+    <h2>@header</h2>
 
-        <header>
-            <img src="images/hero.svg">
-            <h1>heading inside hero</h1>
-        </header>
-        <hr>
+    <header class="hero">
+        <img class="hero-img" src="images/hero.svg">
+        <h1 class="hero-about">Hey! I am a <Span class="hero-tag">Web Devloper</Span> </h1>
+    </header>
+    <hr>
 
-        <h2>@section</h2>
+    <h2>@section</h2>
 
-        <section>
-            <h3>this is a white section</h3>
-            <p>it will be white in color</p>
-        </section>
+    <section class="section">
+        <div class="container-center">
+            <h3>White Section</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim atque odio doloribus harum nemo reiciendis
+                repellat nisi alias commodi delectus.</p>
+        </div>
+    </section>
 
-        <section>
-            <h3>this is a off white section</h3>
-            <p>it will be grey in color</p>
-        </section>
-        <hr>
+    <section class="section ow">
+        <div class="container-center">
+            <h3>Off-white Section</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni magnam in quam nesciunt cumque eius
+                rem, laborum eligendi perspiciatis.</p>
+        </div>
+    </section>
+    <hr>
 
-        <h2>@footer</h2>
+    <h2>@footer</h2>
+    <footer class="footer">
+    <div class="footer-header">some text in the footer</div>
+    <ul >
+        <li class="list-inline-list"><a class="link" href="twitter.com">Twitter</a></li>
+        <li class="list-inline-list"><a class="link" href="instagram.com">Instagram</a></li>
+        <li class="list-inline-list"><a class="link" href="youtube.com">Youtube</a></li>
+    </ul>
+</footer>
 
-        <div>some text in the footer</div>
-        <ul>
-            <li>social 1</li>
-            <li>social 2</li>
-            <li>social 3</li>
-        </ul>
-    
 
 
 

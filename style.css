@@ -2,6 +2,7 @@
 
 :root{
   --primary-color:#4ade80;
+  --off-white:#d1d5db;
 }
 
 body{
@@ -18,7 +19,7 @@ hr{
     padding: 0rem 1rem;
     
 }
-.container-fluid{
+.container-center{
     max-width: 600px;
     margin: auto;
 }
@@ -59,6 +60,7 @@ hr{
     background-color: var(--primary-color);
     color: black;
     padding: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 .nav-devloper{
     font-weight: bold;
@@ -69,4 +71,57 @@ hr{
 
 .navigation .link{
     color: black;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/* header */
+
+.hero{
+padding: 2rem;
+text-align: center;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-about{
+    padding-top: 1rem;
+    color: rgb(12, 54, 207);
+}
+.hero .hero-about .hero-tag{
+    color: var(--primary-color);
+}
+
+/* section */
+
+.section{
+  padding: 2rem;
+}
+.section h3{
+       text-align: center;
+}
+.ow{
+    background-color: var(--off-white);
+}
+
+/* footer */
+
+.footer{
+    padding: 2rem 1rem;
+    background-color: var(--primary-color);
+    color: black;
+    text-align: center;
+    border-top-right-radius: 1rem; 
+}
+.footer .link{
+    color: black;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
